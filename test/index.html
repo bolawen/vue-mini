@@ -13,10 +13,25 @@
     </script>
 </head>
 <body>
+    <div id="app">
+        <div>{{ a }}</div>
+    </div>
     <script type="module">
       import Vue from "vue";
 
-      Vue();
+      const app = new Vue({
+        el: "#app",
+        data(){
+            return {
+                a: 1,
+                b: {
+                    c: 2,
+                    d:4
+                },
+                e: [5,6]
+            }
+        }
+      });
     </script>
 </body>
 </html>

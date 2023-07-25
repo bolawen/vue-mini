@@ -9,6 +9,7 @@
     "module": "esnext",  
     "skipLibCheck": true,
     "noImplicitAny":false,
+    "noImplicitThis": false,
     "esModuleInterop": true,
     "noUnusedLocals": false,
     "removeComments": false,
